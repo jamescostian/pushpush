@@ -1,4 +1,4 @@
-# Pushpush
+# pushpush
 
 [![Build Status](https://img.shields.io/travis/jamescostian/pushpush.svg?style=flat)](https://travis-ci.org/jamescostian/pushpush)
 
