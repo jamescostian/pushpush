@@ -25,5 +25,7 @@ If you've pushed a commit on the same day that you run pushpush, pushpush will s
 This program is useless, *unless* you set a cronjob to run it every day. For example, adding the following to crontab (by running `crontab -e`) will make pushpush run every day at 7PM (so you have enough time to write some code and push it, for the sake of OPEN SOURCING ALL THE THINGS):
 
 ```
-19 00 * * * /usr/local/bin/pushpush
+00 19 * * * /usr/local/bin/pushpush
 ```
+
+Sometimes, the above cronjob will not work because pushpush is located in a different path (e.g. `/usr/bin/pushpush`), which means that you'll have to change the path at the end to match the path to the pushpush binary. In order to find out where pushpush was installed, run `whereis pushpush`
