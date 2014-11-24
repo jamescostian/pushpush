@@ -2,7 +2,7 @@
 	"name": "pushpush",
 	"description": "Get a Pushover notification if you haven't pushed any open source code on Github today",
 	"repository": "https://github.com/jamescostian/pushpush",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"license": "MIT",
 	"contributors": [
 		"James Costian <james@jamescostian.com> (http://jamescostian.com)"
