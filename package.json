@@ -1,27 +1,34 @@
 {
-	"name": "pushpush",
-	"description": "Get a Pushover notification if you haven't pushed any open source code on Github today",
-	"repository": "https://github.com/jamescostian/pushpush",
-	"version": "1.0.0",
-	"license": "MIT",
-	"contributors": [
-		"James Costian <james@jamescostian.com> (http://jamescostian.com)"
-	],
-	"engines": {
-		"node": ">=0.10"
-	},
-	"scripts": {
-		"test": "make"
-	},
-	"preferGlobal": true,
-	"bin": {
-		"pushpush": "index.js"
-	},
-	"dependencies": {
-		"request-promise": "0.3.x",
-		"pushover-notifications": "0.2.x"
-	},
-	"devDependencies": {
-		"jshint": "2.5.x"
-	}
+  "name": "pushpush",
+  "description": "Get a Pushover notification if you haven't pushed any open source code on Github today",
+  "version": "1.0.0",
+  "author": "James Costian <james@jamescostian.com>",
+  "bin": {
+    "pushpush": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/jamescostian/pushpush/issues"
+  },
+  "dependencies": {
+    "pushover-notifications": "^0.2",
+    "request-promise": "^0.3"
+  },
+  "devDependencies": {
+    "snazzy": "^2",
+    "standard": "^5",
+    "tap-spec": "^4",
+    "tape": "^4"
+  },
+  "homepage": "https://github.com/jamescostian/pushpush",
+  "license": "ISC",
+  "main": "index.js",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamescostian/pushpush.git"
+  },
+  "scripts": {
+    "lint": "snazzy",
+    "test": "npm run lint"
+  }
 }
