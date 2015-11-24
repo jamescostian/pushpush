@@ -1,10 +1,14 @@
 # pushpush
 
 [![Build Status](https://img.shields.io/travis/jamescostian/pushpush.svg?style=flat)](https://travis-ci.org/jamescostian/pushpush)
+[![Dependency Status](https://img.shields.io/gemnasium/jamescostian/pushpush.svg?style=flat)](https://gemnasium.com/jamescostian/pushpush)
+[![License](https://img.shields.io/npm/l/pushpush.svg?style=flat)](https://github.com/jamescostian/pushpush/blob/master/LICENSE)
+[![NPM Version](https://img.shields.io/npm/v/pushpush.svg?style=flat)](https://www.npmjs.com/package/pushpush)
+[![Standard](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
 
 Get a [Pushover](https://pushover.net/) notification if you haven't pushed any open source code on Github today
 
-# Installation
+## Install
 
 Assuming you have [Node](http://nodejs.org) and [NPM](https://npmjs.org) (which is bundled with Node), you can just run:
 
@@ -22,7 +26,7 @@ Of course, you'll need to replace `args` with the arguments you need to pass to 
 
 *Note*: sometimes, the above cronjob will not work because pushpush is located in a different path (e.g. `/usr/bin/pushpush`), which means that you'll have to change the path (`/usr/loca/bin/pushpush`) to match the path to the pushpush binary. In order to find out where pushpush was installed, run `whereis pushpush`
 
-# Usage
+## Usage
 
 Run `pushpush` from the command line, passing it your Github username as the first argument, your Pushover API token as the second argument, and the Pushover user key as the third. For example:
 
@@ -31,3 +35,11 @@ pushpush jamescostian azGDORePK8gMaC0QOYAMyEEuzJnyUi uQiRzpo4DXghDmr9QzzfQu27cmV
 ```
 
 If you've pushed a commit on the same day that you run pushpush, pushpush will say "Good job!". Otherwise, pushpush will say "PUSH!" and send you a pushover notification.
+
+## Contributing
+
+Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
+
+## License
+
+[ISC](LICENSE)
