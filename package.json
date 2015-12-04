@@ -20,6 +20,10 @@
     "tape": "^4"
   },
   "homepage": "https://github.com/jamescostian/pushpush",
+  "keywords": [
+    "pushover",
+    "github"
+  ],
   "license": "ISC",
   "main": "index.js",
   "preferGlobal": true,
