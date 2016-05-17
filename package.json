@@ -14,8 +14,8 @@
     "request-promise": "^0.3"
   },
   "devDependencies": {
-    "snazzy": "^2",
-    "standard": "^5",
+    "snazzy": "^4",
+    "standard": "^7",
     "tap-spec": "^4",
     "tape": "^4"
   },
